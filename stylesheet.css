@@ -1,4 +1,4 @@
-/* CSSのリセット*/
+/*CSSのリセット*/
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -15,10 +15,10 @@ li {
   list-style: none;
 }
 
-/* ここから*/
+/*ここから*/
 .header {
-  background-color: #191970;
-  color: #fff;
+  background-color: #white;
+  color: #black;
   height: 90px;
 }
 
@@ -56,24 +56,6 @@ li {
 .contents-item {
   float: left;
   margin-right: 40px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
-
-input, textarea {
-  width: 200px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 12px;
-  border: 1px solid #dee7ec;
-}
-
-.contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
 }
 
 .footer {
